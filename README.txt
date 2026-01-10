@@ -1,13 +1,14 @@
-===========================================================================
-                        ERROR ANALYSIS TOOL README
-===========================================================================
 
-1. PURPOSE
+                        ERROR ANALYSIS TOOL README
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+1.) PURPOSE
 ---------------------------------------------------------------------------
 Verifies the accuracy of 3D antenna pattern interpolation by comparing a 
 Predicted CSV against a Ground Truth CSV.
 
-2. INPUT
+
+2.) INPUT
 ---------------------------------------------------------------------------
 Both CSV files must share the same angular grid (step size) and contain 
 these exact headers:
@@ -18,7 +19,7 @@ these exact headers:
      (Rename your gain column to this if necessary)
 
 
-4. RESULTS
+3.) RESULTS
 ---------------------------------------------------------------------------
 RMSE (Root Mean Sq Error):
    - The primary accuracy metric.
